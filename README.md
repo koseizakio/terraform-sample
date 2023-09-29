@@ -20,15 +20,28 @@ terraform version
 ```
 
 ###  terraform init
+
+```
+terraform init
+```
+
 設定ファイルを記述したら```terraform init``` コマンドを実行。
 
 ```Terraform has been successfully initialized!```と表示されれば問題なし。
 
 ###  terraform plan
+```
+terraform plan
+```
+
 ソースコードを実行すると実行計画について表示される。
 エラーが出るとどの行にミスがあるか表示される。
 
 ### terraform apply
+```
+terraform apply
+```
+
 ソースコードを実行するとAWSの場合、AWSのリソースが作成される。最後に、
 ```Do you want to perform these actions?```と入力を求められるので、```yes```と入力する。
 
